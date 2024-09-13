@@ -1,0 +1,84 @@
+* 
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background-color: black;
+}
+
+.Background 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/Burgerking.jpg');
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 880px;
+    background-size: cover;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.logo 
+{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0%;
+}
+
+.logo img 
+{
+    height: 100px;
+    width: 100px;
+}
+
+.headline 
+{
+    font-size: 75px;
+    color: white;
+    font-family: google sans-serif;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.headline2 
+{
+    font-size: 30px;
+    color: white;
+    font-family: google sans-serif;
+    position: absolute;
+    left: 50px;
+    top: 225px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.button 
+{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+
+}
+
+.button a {
+    text-decoration: none;
+
+    font-size: 40px;
+    border: 1px;
+    padding: 5px 10px;
+    background-color: #f60000;
+    color: rgb(233, 233, 233);
+    transition: 0.5s;
+}
+.button a:hover
+{
+    background:linear-gradient(rgba(255, 0, 0, 0.800),rgba(255, 0, 0, 0.800));
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,157 @@
+* 
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.top
+{
+    padding: 2px;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.top a
+{
+    text-decoration: none;
+    color: black;
+}
+table 
+{
+    padding: 15px;
+    width: 100%;
+}
+
+table a 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.profile 
+{
+    border: 2px solid rgb(51, 47, 47);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.google 
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 35%;
+    font-size: 75px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -5px;
+}
+.icon
+{
+    position: absolute;
+    left: 2%;
+    top: 25%;
+}
+.search 
+{
+    width: 35%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 45%;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    outline: 0.5px solid black;
+}
+
+.search input 
+{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.logo 
+{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.m 
+{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 40px;
+    top: 3px;
+}
+
+.len 
+{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.after 
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 52%;
+
+}
+
+.after a 
+{
+    text-decoration: none;
+    color:black;
+    border: 1px solid #F8F9FA;
+    padding: 5px 10px;
+    background-color: #F8F9FA;
+    margin-right: 15px;
+}
+
+.language 
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    font-size: 16px;
+   
+}
+
+.language a 
+{
+    text-decoration: none;
+    color: rgb(132, 124, 124);
+}
+
+.footer 
+{
+    position: absolute;
+    top: 93.5%;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.bottom 
+{
+    position: absolute;
+    top: 97%;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+}
